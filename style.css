@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--colorido);
+  border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 1vh;
+  position: absolute;
+  width: 1vh;
+  background-color: var(--corFundo);
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Montserrat';
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  letter-spacing: 0.05vh;
+  resize: none;
+  outline: none;
+  border: 0;
+  color: var(--corTexto);
+  scroll-behavior: smooth;
+}
+
+/* root */
+:root {
+  --corTexto: #111;
+  --corFundo: #fff;
+  --colorido: #3e5f90;
+}
+
+/* main */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: var(--colorido);
+}
+
+/* formulario */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90%;
+  width: 45%;
+  background-color: var(--corFundo);
+  border-radius: 5px;
+}
+
+section > * {
+  margin: 1%;
+}
+
+section h1 {
+  width: 78%;
+  font-weight: 800;
+}
+
+section ul li {
+  font-weight: 600;
+}
+
+section form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60%;
+  width: 100%;
+}
+
+section form > * {
+  margin: 0.4%;
+}
+
+section form label {
+  width: 75%;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+section form input {
+  padding: 7px;
+  width: 80%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 1px solid rgb(133, 133, 133);
+}
+
+section form input:focus {
+  border: 1px solid var(--colorido);
+}
+
+section button {
+  margin: 1%;
+  height: 9%;
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--colorido);
+  color: #fff;
+  border-radius: 3px;
+}
+
+section button:hover {
+  filter: brightness(75%);
+}
+
+/* responsivando */
+@media screen and (max-width: 1000px) {
+  body section {
+    height: 50%;
+    width: 80%;
+  }
+  body section h1 {
+    font-size: 2.5rem;
+    width: 85%;
+  }
+  body section li {
+    font-size: 1.4rem;
+  }
+
+  body form {
+    height: 50%;
+  }
+  body form label {
+    font-size: 1.6rem;
+  }
+  body form input {
+    font-size: 1.6rem;
+  }
+  body section button {
+    font-size: 2rem;
+  }
+}

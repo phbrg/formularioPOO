@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <title>formulario</title>
+        <link rel="shortcut icon" href="./img/" type="image/x-icon">
+    </head>
+    <body>
+
+        <main>
+
+            <section>
+
+                <h1>Formulario</h1>
+
+                <ul>
+                    <li>Todos campos devem estar preenchidos</li>
+                    <li>Usuario deve conter apenas letras e/ou numeros</li>
+                    <li>Usuario deve conter entre 3 e 12 caracteres</li>
+                    <li>Senha deve conter no minimo 6 caracteres</li>
+                </ul>
+
+                <form>
+
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" type="text">
+
+                    <label for="usuario">Usuario:</label>
+                    <input id="usuario" name="usuario" type="text">
+
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email">
+
+                    <label for="senha">Senha:</label>
+                    <input id="senha" name="senha" type="password">
+
+                    <label for="rSenha">Repetir senha:</label>
+                    <input id="rSenha" name="rSenha" type="password">
+
+                </form>
+
+                <button onclick="validaForm()">Enviar</button>
+
+            </section>
+
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
