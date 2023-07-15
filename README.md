@@ -1,3 +1,11 @@
-# Formulario com validação
-Este projeto foi realizado com o intuito de treinar minhas habilidades em POO (Programação orientada a objeto) em JS, usei bastante do que eu sei e procurei ter um clean code. disponivel para testes em: <a href="https://ph-formpoo.vercel.app">ph-formpoo.vercel.app</a>
+# 📑 Javascript POO form validator
+- um validados de formulario em Javascript com foco em POO ( programação orientada a objetos )
+- codigo limpo e autoral
+- feito com o intuito unicamente de aplicar meus conhecimentos e aprimora-los
+- linguagens utilizadas: HTML, CSS & Javascript
+
+# 🔨 Teste o projeto
+[ph-formulario](https://ph-formpoo.vercel.app/)
+
+# 📷 Foto do projeto
 <img src="https://media.discordapp.net/attachments/1121210969352310966/1126702409893298318/image.png">
